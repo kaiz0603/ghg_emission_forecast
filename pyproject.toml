@@ -1,0 +1,16 @@
+[project]
+name = "ghg-emission-forecast"
+version = "0.1.0"
+description = "Country-level greenhouse gas forecasting pipeline with backtest-based model selection"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "lightgbm>=4.6.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+ghg-forecast = "forecast_pipeline:main"

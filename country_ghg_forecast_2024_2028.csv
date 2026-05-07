@@ -1,0 +1,51 @@
+country,latest_observed_year,source_year,predict_for_year,forecast_horizon_years,selected_model,selected_model_family,predicted_ghg_mtco2e,previous_ghg_mtco2e,yoy_change_mtco2e,yoy_change_pct,backtest_rmse_mtco2e,benchmark_rmse_mtco2e,rmse_improvement_vs_benchmark_mtco2e,reliability_tier,forecast_basis
+Brunei Darussalam,2023,2023,2024,1,naive,baseline_persistence,17.137,17.137,0.0,0.0,0.368,0.368,0.0,medium,direct_horizon_model_selection
+Brunei Darussalam,2023,2023,2025,2,naive,baseline_persistence,17.137,17.137,0.0,0.0,0.991,0.991,0.0,medium,direct_horizon_model_selection
+Brunei Darussalam,2023,2023,2026,3,ridge_delta,regularized_linear_delta,18.523,17.137,1.386,8.09,1.454,1.522,0.068,medium,direct_horizon_model_selection
+Brunei Darussalam,2023,2023,2027,4,ridge_delta,regularized_linear_delta,18.243,17.137,1.106,6.456,1.415,1.778,0.363,high,direct_horizon_model_selection
+Brunei Darussalam,2023,2023,2028,5,ridge_delta,regularized_linear_delta,18.242,17.137,1.105,6.445,1.219,2.017,0.798,high,direct_horizon_model_selection
+Cambodia,2023,2023,2024,1,naive,baseline_persistence,82.998,82.998,0.0,0.0,3.263,3.263,0.0,medium,direct_horizon_model_selection
+Cambodia,2023,2023,2025,2,naive,baseline_persistence,82.998,82.998,0.0,0.0,3.636,3.636,0.0,medium,direct_horizon_model_selection
+Cambodia,2023,2023,2026,3,naive,baseline_persistence,82.998,82.998,0.0,0.0,4.624,4.624,0.0,medium,direct_horizon_model_selection
+Cambodia,2023,2023,2027,4,naive,baseline_persistence,82.998,82.998,0.0,0.0,5.471,5.471,0.0,medium,direct_horizon_model_selection
+Cambodia,2023,2023,2028,5,naive,baseline_persistence,82.998,82.998,0.0,0.0,6.736,6.736,0.0,medium,direct_horizon_model_selection
+Indonesia,2023,2023,2024,1,histgb_log,boosted_tree_log_target,1895.983,1921.864,-25.881,-1.347,187.063,233.135,46.072,high,direct_horizon_model_selection
+Indonesia,2023,2023,2025,2,mean3,baseline_recent_average,1795.846,1921.864,-126.018,-6.557,175.178,278.177,102.999,high,direct_horizon_model_selection
+Indonesia,2023,2023,2026,3,mean3,baseline_recent_average,1795.846,1921.864,-126.018,-6.557,193.998,367.199,173.201,high,direct_horizon_model_selection
+Indonesia,2023,2023,2027,4,histgb_log,boosted_tree_log_target,1666.984,1921.864,-254.88,-13.262,210.007,219.042,9.035,medium,direct_horizon_model_selection
+Indonesia,2023,2023,2028,5,histgb_log,boosted_tree_log_target,1768.739,1921.864,-153.125,-7.968,204.286,343.05,138.764,high,direct_horizon_model_selection
+Lao PDR,2023,2023,2024,1,naive,baseline_persistence,53.208,53.208,0.0,0.0,3.601,3.601,0.0,medium,direct_horizon_model_selection
+Lao PDR,2023,2023,2025,2,naive,baseline_persistence,53.208,53.208,0.0,0.0,5.052,5.052,0.0,medium,direct_horizon_model_selection
+Lao PDR,2023,2023,2026,3,histgb_log,boosted_tree_log_target,53.296,53.208,0.088,0.165,4.857,6.299,1.441,high,direct_horizon_model_selection
+Lao PDR,2023,2023,2027,4,histgb_log,boosted_tree_log_target,54.926,53.208,1.718,3.228,5.249,7.232,1.983,high,direct_horizon_model_selection
+Lao PDR,2023,2023,2028,5,histgb_log,boosted_tree_log_target,58.724,53.208,5.516,10.366,6.771,7.647,0.876,high,direct_horizon_model_selection
+Malaysia,2023,2023,2024,1,naive,baseline_persistence,415.634,415.634,0.0,0.0,11.125,11.125,0.0,medium,direct_horizon_model_selection
+Malaysia,2023,2023,2025,2,naive,baseline_persistence,415.634,415.634,0.0,0.0,18.02,18.02,0.0,medium,direct_horizon_model_selection
+Malaysia,2023,2023,2026,3,histgb_log,boosted_tree_log_target,407.853,415.634,-7.781,-1.872,22.794,28.436,5.642,high,direct_horizon_model_selection
+Malaysia,2023,2023,2027,4,histgb_log,boosted_tree_log_target,414.192,415.634,-1.442,-0.347,24.951,71.489,46.538,high,direct_horizon_model_selection
+Malaysia,2023,2023,2028,5,histgb_log,boosted_tree_log_target,385.359,415.634,-30.275,-7.284,16.515,77.945,61.43,high,direct_horizon_model_selection
+Myanmar,2023,2023,2024,1,naive,baseline_persistence,205.39,205.39,0.0,0.0,11.711,11.711,0.0,medium,direct_horizon_model_selection
+Myanmar,2023,2023,2025,2,naive,baseline_persistence,205.39,205.39,0.0,0.0,17.474,17.474,0.0,medium,direct_horizon_model_selection
+Myanmar,2023,2023,2026,3,naive,baseline_persistence,205.39,205.39,0.0,0.0,21.325,21.325,0.0,medium,direct_horizon_model_selection
+Myanmar,2023,2023,2027,4,naive,baseline_persistence,205.39,205.39,0.0,0.0,24.982,24.982,0.0,medium,direct_horizon_model_selection
+Myanmar,2023,2023,2028,5,mean3,baseline_recent_average,203.223,205.39,-2.167,-1.055,27.38,27.769,0.389,medium,direct_horizon_model_selection
+Philippines,2023,2023,2024,1,naive,baseline_persistence,284.404,284.404,0.0,0.0,7.383,7.383,0.0,medium,direct_horizon_model_selection
+Philippines,2023,2023,2025,2,naive,baseline_persistence,284.404,284.404,0.0,0.0,10.834,10.834,0.0,medium,direct_horizon_model_selection
+Philippines,2023,2023,2026,3,mean3,baseline_recent_average,276.374,284.404,-8.03,-2.823,13.71,14.563,0.853,high,direct_horizon_model_selection
+Philippines,2023,2023,2027,4,naive,baseline_persistence,284.404,284.404,0.0,0.0,13.585,13.585,0.0,medium,direct_horizon_model_selection
+Philippines,2023,2023,2028,5,naive,baseline_persistence,284.404,284.404,0.0,0.0,15.486,15.486,0.0,medium,direct_horizon_model_selection
+Singapore,2023,2023,2024,1,mean3,baseline_recent_average,56.791,56.959,-0.168,-0.295,1.589,2.108,0.52,high,direct_horizon_model_selection
+Singapore,2023,2023,2025,2,mean3,baseline_recent_average,56.791,56.959,-0.168,-0.295,1.544,1.843,0.3,high,direct_horizon_model_selection
+Singapore,2023,2023,2026,3,mean3,baseline_recent_average,56.791,56.959,-0.168,-0.295,1.847,1.906,0.058,medium,direct_horizon_model_selection
+Singapore,2023,2023,2027,4,naive,baseline_persistence,56.959,56.959,0.0,0.0,1.824,1.824,0.0,medium,direct_horizon_model_selection
+Singapore,2023,2023,2028,5,naive,baseline_persistence,56.959,56.959,0.0,0.0,2.482,2.482,0.0,medium,direct_horizon_model_selection
+Thailand,2023,2023,2024,1,trend5,baseline_recent_linear_trend,414.101,416.852,-2.751,-0.66,8.546,8.748,0.202,medium,direct_horizon_model_selection
+Thailand,2023,2023,2025,2,ridge_delta,regularized_linear_delta,442.658,416.852,25.806,6.191,9.502,14.855,5.353,high,direct_horizon_model_selection
+Thailand,2023,2023,2026,3,ridge_delta,regularized_linear_delta,454.712,416.852,37.86,9.082,13.502,20.831,7.329,high,direct_horizon_model_selection
+Thailand,2023,2023,2027,4,histgb_log,boosted_tree_log_target,466.926,416.852,50.074,12.013,14.886,27.49,12.604,high,direct_horizon_model_selection
+Thailand,2023,2023,2028,5,histgb_log,boosted_tree_log_target,438.001,416.852,21.149,5.074,20.658,33.059,12.401,high,direct_horizon_model_selection
+Timor-Leste,2023,2023,2024,1,trend5,baseline_recent_linear_trend,4.588,4.822,-0.234,-4.855,0.209,0.276,0.067,high,direct_horizon_model_selection
+Timor-Leste,2023,2023,2025,2,naive,baseline_persistence,4.822,4.822,0.0,0.0,0.271,0.271,0.0,medium,direct_horizon_model_selection
+Timor-Leste,2023,2023,2026,3,mean3,baseline_recent_average,4.905,4.822,0.083,1.721,0.394,0.395,0.001,medium,direct_horizon_model_selection
+Timor-Leste,2023,2023,2027,4,naive,baseline_persistence,4.822,4.822,0.0,0.0,0.404,0.404,0.0,medium,direct_horizon_model_selection
+Timor-Leste,2023,2023,2028,5,ridge_delta,regularized_linear_delta,5.409,4.822,0.587,12.165,0.352,0.565,0.213,high,direct_horizon_model_selection

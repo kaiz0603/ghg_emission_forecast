@@ -1,0 +1,11 @@
+country,selected_model,selected_model_family,backtest_years,train_rows_full,latest_observed_year,forecast_horizon_years,rmse_mtco2e,mae_mtco2e,mape_pct,r2,benchmark_model,benchmark_rmse_mtco2e,benchmark_mae_mtco2e,rmse_improvement_vs_benchmark_mtco2e,rmse_improvement_vs_benchmark_pct,reliability_tier,validation_strategy
+Timor-Leste,trend5,baseline_recent_linear_trend,6,73,2023,1,0.209,0.169,3.294,0.102,naive,0.276,0.239,0.067,24.225,high,rolling_one_step_backtest_with_model_selection
+Singapore,mean3,baseline_recent_average,6,73,2023,1,1.589,1.329,2.369,-0.558,naive,2.108,1.845,0.52,24.65,high,rolling_one_step_backtest_with_model_selection
+Indonesia,histgb_log,boosted_tree_log_target,6,73,2023,1,187.063,152.96,8.217,-0.494,naive,233.135,186.367,46.072,19.762,high,rolling_one_step_backtest_with_model_selection
+Brunei Darussalam,naive,baseline_persistence,6,73,2023,1,0.368,0.313,1.828,0.125,naive,0.368,0.313,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
+Cambodia,naive,baseline_persistence,6,73,2023,1,3.263,2.792,3.273,-0.257,naive,3.263,2.792,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
+Lao PDR,naive,baseline_persistence,6,73,2023,1,3.601,2.846,5.519,-1.047,naive,3.601,2.846,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
+Philippines,naive,baseline_persistence,6,73,2023,1,7.383,6.144,2.265,-0.096,naive,7.383,6.144,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
+Thailand,trend5,baseline_recent_linear_trend,6,73,2023,1,8.546,7.022,1.642,0.369,naive,8.748,8.022,0.202,2.31,medium,rolling_one_step_backtest_with_model_selection
+Malaysia,naive,baseline_persistence,6,73,2023,1,11.125,7.82,1.949,-0.499,naive,11.125,7.82,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
+Myanmar,naive,baseline_persistence,6,73,2023,1,11.711,8.095,3.816,-3.085,naive,11.711,8.095,0.0,0.0,medium,rolling_one_step_backtest_with_model_selection
