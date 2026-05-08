@@ -88,6 +88,13 @@ Note:
 
 ## Setup Instructions
 
+### Clone
+
+```powershell
+git clone https://github.com/kaiz0603/ghg_emission_forecast.git
+cd ghg_emission_forecast
+```
+
 ### Option 1: Setup with `uv`
 
 If you use `uv`, from the project root run:
