@@ -6,6 +6,8 @@ The main working artifact is:
 
 - [ghg_emission_forecast_kaggle.ipynb](./ghg_emission_forecast_kaggle.ipynb)
 
+You can also find the notebook at [Kaggle](https://www.kaggle.com/code/kaizhi0603/ghg-emission-forecast).
+
 ## Scope
 
 The project currently forecasts GHG emissions for:
